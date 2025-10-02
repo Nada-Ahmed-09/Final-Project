@@ -1,0 +1,213 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+.headings{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.links a{
+    margin: auto 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.liso{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.image1{
+    width: 200px;
+       margin-left: auto;
+    margin-right: auto;
+}
+.sec1{
+   height: 100vh;
+  background-image: url("img/weather-image.jpeg"); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.p1{
+    color: rgb(16, 19, 27);
+    font-size: 25px;
+    width: 850px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1:hover{
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    transition: 0.3s;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.lis{
+    text-decoration: none;
+    list-style: none;
+  padding: 10px;
+     margin: 10px;
+    color: rgb(51, 51, 75);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li:hover{
+   
+    /* background-color: rgb(237, 242, 255); */
+    transition: 0.3s;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 10px;
+
+}
+.container1{
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: center;
+justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1,.box2,.box3,.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-content: center;
+  
+    padding: 30px 5px;
+    border-radius: 20px;
+    /* width: fit-content; */
+}
+.headings{
+    margin: 10px;
+       margin-left: auto;
+    margin-right: auto;
+}
+.wtw{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:8px;
+}
+.sugges{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+@media (max-width: 568px){
+    .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    
+}
+.links a{
+    margin: auto 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.liso{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     margin-left: auto;
+     margin: 0px;
+    margin-right: auto;
+}
+.image1{
+    width: 200px;
+       margin-left: auto;
+    margin-right: auto;
+}
+.sec1{
+   height: 100vh;
+  background-image: url("img/weather-image.jpeg"); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.p1{
+    color: rgb(16, 19, 27);
+    font-size: 25px;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1:hover{
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    transition: 0.3s;
+}
+body{
+    width: fit-content;
+}
+.lis{
+    text-decoration: none;
+    list-style: none;
+  padding: 10px;
+     margin: 10px;
+    color: rgb(51, 51, 75);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lis:hover{
+   
+    /* background-color: rgb(237, 242, 255); */
+    transition: 0.3s;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 10px;
+
+}
+.container1{
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1,.box2,.box3,.box4{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+       margin-left: auto;
+    margin-right: auto;
+    padding: 30px 5px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.headings{
+    margin: 10px;
+       margin-left: auto;
+    margin-right: auto;
+}
+.wtw{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:8px;
+}
+.sugges{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+}
